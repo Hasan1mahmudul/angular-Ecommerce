@@ -1,0 +1,7 @@
+.mini-header {
+    @apply flex px-2 justify-between gap-1 text-sm;
+
+  @screen md {
+    @apply text-base;
+  }
+  }
