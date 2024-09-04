@@ -5,5 +5,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-page.component.scss']
 })
 export class HomePageComponent {
-
+  switchState = false
+  checkModeValue(){
+    console.log(this.switchState);
+  }
 }
